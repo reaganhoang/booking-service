@@ -1,0 +1,20 @@
+{
+    "name": "view_worker",
+    "version": "1.0.0",
+    "description": "view handler",
+    "main": "receiveBookLoop.js",
+    "scripts": {
+        "start": "node receiveBookLoop.js",
+        "bookloop": "node receiveBookLoop.js"
+    },
+    "author": "Aaron Pietsch",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aj-4/AirbnbBookingSystem/issues"
+    },
+    "homepage": "https://github.com/aj-4/AirbnbBookingSystem#readme",
+    "dependencies": {
+        "aws-sdk": "^2.188.0",
+        "node-statsd": "^0.1.1"
+    }
+}
