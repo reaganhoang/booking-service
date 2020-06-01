@@ -1,0 +1,7 @@
+**/package-lock.json
+package-lock.json
+node_modules
+**/datafiles
+**/node_modules
+**/.vscode/
+**/hg_api.js
